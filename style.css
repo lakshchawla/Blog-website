@@ -162,7 +162,8 @@ html {
 }
 
 .WHATWEDO {
-    margin: 50px;
+    width: fit-content;
+    margin: 40PX auto;
 }
 
 .WHATWEDO h2,
@@ -496,9 +497,19 @@ footer a:hover {
     text-align: right;
 }
 
-@media only screen and (max-width: 1100px) {
-    .WHATWEDO {
-        position: relative;
-        right: 70px;
-    }
+#footerdes {
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+}
+
+#footerdes a {
+    color: #ff3b3f;
+    text-decoration: none;
+}
+
+#footerdes svg {
+    position: relative;
+    color: #ff3b3f;
+    top: 3px;
 }
